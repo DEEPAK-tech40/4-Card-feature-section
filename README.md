@@ -28,8 +28,8 @@ Mobile-view:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/4cardfeaturesection-Npl0SwqsIz)
+- Live Site URL: [Live site](https://deepak-tech40-4cardfeature.netlify.app/)
 
 ## My process
 
@@ -42,4 +42,4 @@ Mobile-view:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@DEEPAK-tech40](https://www.frontendmentor.io/profile/DEEPAK-tech40)
