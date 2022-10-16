@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* height: 100vh; */
+    width: 100vw;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 40px;
+    background-color: var(--VeryLightGray);
+}
+
+main h1,
+main h2 {
+    font-size: 22px;
+    margin: 3px;
+}
+
+main h2 {
+    color: var(--GrayishBlue);
+    font-weight: 400;
+}
+
+main h1 {
+    color: var(--VeryDarkBlue);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+main blockquote {
+    margin: 5px;
+    line-height: 1.5;
+    color: var(--GrayishBlue);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section {
+    margin-top: 70px;
+}
+
+article {
+    height: 15rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px 25px 25px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.219);
+}
+
+article h1 {
+    font-size: 20px;
+    color: var(--VeryDarkBlue);
+    margin: 3px;
+}
+
+article span {
+    margin: auto 0px 0px auto;
+}
+
+article blockquote {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.supervisor {
+    border-top: 5px solid var(--Cyan);
+}
+
+.team-builder {
+    border-top: 5px solid var(--Red);
+}
+
+.karma {
+    border-top: 5px solid var(--Orange);
+}
+
+.calculator {
+    border-top: 5px solid var(--Blue);
+}
+
+footer {
+    color: var(--GrayishBlue);
+    margin-bottom: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--VeryDarkBlue);
+}
+
+@media screen and (min-width:500px) {
+
+    main h1,
+    main h2 {
+        font-size: 26px;
+    }
+
+    main blockquote {
+        font-size: 18px;
+        margin: 5px 355px;
+    }
+
+    div {
+        gap: 30px;
+    }
+
+    .section {
+        flex-direction: row;
+    }
+
+    article {
+        width: 20rem;
+        height: 15.5rem;
+        padding-right: 0%;
+    }
+
+    article h1 {
+        font-size: 22px;
+    }
+
+    article blockquote {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    article span {
+        margin-right: 30px;
+    }
+
+    .supervisor {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .calculator {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
