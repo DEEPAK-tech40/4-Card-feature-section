@@ -40,12 +40,12 @@ main h2 {
     margin: 3px;
 }
 
-main h2 {
+main h1 {
     color: var(--GrayishBlue);
     font-weight: 400;
 }
 
-main h1 {
+main h2 {
     color: var(--VeryDarkBlue);
     font-weight: 600;
     margin-bottom: 15px;
@@ -78,7 +78,7 @@ article {
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.219);
 }
 
-article h1 {
+article h2 {
     font-size: 20px;
     color: var(--VeryDarkBlue);
     margin: 3px;
@@ -145,7 +145,7 @@ footer a {
         padding-right: 0%;
     }
 
-    article h1 {
+    article h2 {
         font-size: 22px;
     }
 
